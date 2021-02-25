@@ -5,13 +5,196 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bs5/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/80e259b08b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="media.css">
     <title>JASON | Travel Stop</title>
 </head>
 
 <body>
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light head-nav-style p-0">
+        <div class="container-fluid">
+            <div class="header d-lg-flex justify-content-lg-between align-items-center">
+                <a class="navbar-brand" href="#"><img src="/assets/logo.svg" alt="logo"></a>
+                <button class="navbar-toggler custom-btn-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse custom-navbar p-0 m-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav  custom-nav-link p-0 m-0">
+                        <li class="nav-item custom-nav-item">
+                            <a class="custom-anchor-link p-3" href="#">Solution <span><i
+                                        class="fas fa-chevron-down"></i></span></a>
+                        </li>
+                        <li class="nav-item custom-nav-item">
+                            <a class="custom-anchor-link p-3" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item custom-nav-item ">
+                            <a class="custom-anchor-link p-3" href="#">Sign in</a>
+                        </li>
+                        <li class="nav-item custom-nav-item">
+                            <a class="custom-anchor-link p-3" href="#">Sign up free</a>
+                        </li>
+                        <li class="nav-item custom-nav-item">
+                            <a class="custom-anchor-link p-3" href="#"><img src="/assets/translate-icon.svg" alt="translate-icon"><img src="/assets/chevron-down.svg" alt="chevron"></a>
+
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="bg-style-herobanner">
+        <img class="snowflake-bg" src="/assets/snow-flakes.png" alt="snow-flakes">
+        <img class="" src="/assets/bituin-bg.png" alt="bituin">
+    </div>
+    <!-- Content Pricing -->
+    <div class="container">
+        <!-- Row heading -->
+        <div class="row">
+            <div class="col">
+                <div class="simple-pricing-field">
+                    <h1 class="heading-simple-price heading-style text-center">Simple Pricing</h1>
+                </div>
+                <div class="price-description-field">
+                    <p class="text-price-desc text-center">Find a pricing plan that works best for you - <br> corporate travel management, expense management, or both.</p>
+                </div>
+                <div class="price-toggle-field d-flex justify-content-between align-items-center">
+                    <h6 class="show-annually mb-0">Show annually</h6>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input custom-circletoggle" type="checkbox" id="flexSwitchCheckDefault">
+                    </div>
+                    <h6 class="show-monthly mb-0">Show monthly</h6>
+                </div>
+            </div>
+        </div>
+        <!-- Row card price  -->
+        <div class="row">
+            <div class="col">
+                <div class="d-lg-flex justify-content-lg-center align-items-lg-center">
+                    <div class="travel-card card-shadow-left">
+                        <div class="card-content">
+                            <img class="airplane-lg-img" src="/assets/airplane-large-img.png" alt="travel-card">
+                            <h1 class="heading-style text-center mb-4">Travel</h1>
+                            <h5 class="price-text text-center"><strike>$10/trip</strike></h5>
+                            <h4 class="text-primary text-center free">Free</h4>
+                            <a href="#" class="btn get-started">Get Started</a>
+                        </div>
+                        <div class="included-content">
+                            <h5 class="heading-included mb-3">What's included</h5>
+                            <li class="included-item">Flight and hotel bookings</li>
+                            <li class="included-item">Travel policy</li>
+                            <li class="included-item">Approval workflows</li>
+                            <li class="included-item">Group, tags, cost centres</li>
+                            <li class="included-item">Credit card payments</li>
+                            <li class="included-item">Travel insights</li>
+                            <li class="included-item"> Data export</li>
+                            <li class="included-item"> Traveller support</li>
+                        </div>
+
+                    </div>
+                    <div class="expense-card card-shadow-right">
+                        <div class="card-content">
+                            <img class="expense-lg-img" src="/assets/expense-large-img.png" alt="expense card">
+                            <h1 class="heading-style text-center mb-4">Expense</h1>
+                            <h5 class="price-text text-center"><strike>$5/trip</strike></h5>
+                            <h4 class="text-primary text-center free">Free</h4>
+                            <a href="#" class="btn get-started">Get Started</a>
+                        </div>
+                        <div class="included-content">
+                            <h5 class="heading-included mb-3">What's included</h5>
+                            <li class="included-item">Unlimited expense reports</li>
+                            <li class="included-item">Unlimited budget reports</li>
+                            <li class="included-item">Unlimited storage</li>
+                            <li class="included-item">Approval workflows</li>
+                            <li class="included-item">Group, tags, cost centres</li>
+                            <li class="included-item">Mobile apps</li>
+                            <li class="included-item">Expense insights</li>
+                            <li class="included-item mb-3">Data export</li>
+                            <h5 class="heading-included mb-3">Available add-ons</h5>
+                            <li class="included-item">All travel features</li>
+                            <li class="included-item"><strike>$10/trip</strike> <span class="addons-free text-primary">Free</span></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Row Company and middle banner -->
+        <div class="row">
+            <div class="col">
+                <div class="company-logo-field">
+                    <img class="trusted-company" src="/assets/trusted-company-logo.png" alt="company">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="middle-banner">
+        <div class="mid-banner-bg"></div>
+    </div>
+    <!-- Middle Banner -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="mid-banner-content">
+                    <h1 class="heading-style midbanner-title text-center">The best corporate travel and expense
+                        <br>solution for your business
+                    </h1>
+                    <div class="mid-banner-links d-lg-flex justify-content-lg-center">
+                        <a href="#" class="btn get-started mid-banner-getstarted">Get Started</a>
+                        <a href="#" class="btn get-started mid-banner-getstarted demo ">Book a demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="common-question-field">
+                    <h1 class="heading-style text-center">Common questions</h1>
+                    <div class="common-question-list d-flex align-items-center justify-content-between mt-5">
+                        <h5 class="questions">Will be Charged once the free period is over?</h5>
+                        <button class="btn toggle-question-answer questions" type="button">&plus;</button>
+                    </div>
+                    <div class="common-question-list d-flex align-items-center justify-content-between">
+                        <h5 class="questions">How is pricing is calculated?</h5>
+                        <button class="btn toggle-question-answer questions" type="button">&plus;</button>
+                    </div>
+                    <div class="common-question-list d-flex align-items-center justify-content-between">
+                        <h5 class="questions">Can we only sign up for Travel?</h5>
+                        <button class="btn toggle-question-answer questions" type="button">&plus;</button>
+                    </div>
+                    <div class="common-question-list">
+                        <div class="show-question-answer d-flex align-items-center justify-content-between">
+                            <h5 class="questions">If we sign up only for Expenses, can we still use Travel?</h5>
+                            <button class="btn toggle-question-answer questions" type="button">&minus;</button>
+                        </div>
+                        <p>Absolutely! Our Business Travel product is pay-per-use. You can access all the features related to business travel and only pay $10 when you book trip. (Note: we won't be charging this fee until Oct 1, 2020)</p>
+                    </div>
+                    <div class="common-question-list d-flex align-items-center justify-content-between">
+                        <h5 class="questions">What type of expenses can we file using Expenses?</h5>
+                        <button class="btn toggle-question-answer questions" type="button">&plus;</button>
+                    </div>
+                    <div class="common-question-list d-flex align-items-center justify-content-between">
+                        <h5 class="questions">Is there a setup fee?</h5>
+                        <button class="btn toggle-question-answer questions" type="button">&plus;</button>
+                    </div>
+                    <div class="common-question-list d-flex align-items-center justify-content-between">
+                        <h5 class="questions">Do you offer discounts?</h5>
+                        <button class="btn toggle-question-answer questions" type="button">&plus;</button>
+                    </div>
+                    <div class="common-question-list d-flex align-items-center justify-content-between">
+                        <h5 class="questions">Can we cancel at anytime?</h5>
+                        <button class="btn toggle-question-answer questions" type="button">&plus;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
+    <script src="/bs5/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
