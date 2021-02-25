@@ -282,3 +282,14 @@ body {
     padding: 0;
     margin: 0;
 }
+
+.b-bottom {
+    border-bottom: 1px solid rgba(80, 80, 80, 0.2);
+}
+
+.answer {
+    width: 55%;
+}
+
+
+/* Footer */
